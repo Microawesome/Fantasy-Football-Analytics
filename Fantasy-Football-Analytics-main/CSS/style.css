@@ -1,0 +1,41 @@
+
+.navbar {
+    background-image: url("/img/navbar-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-group.special {
+    display: flex;
+    width: 100%;
+}
+
+.dropdown-menu.dropdown-menu-wide {
+    min-width: 100%;
+    text-align: center;
+    padding: 0%;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
